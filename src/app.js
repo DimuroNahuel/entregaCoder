@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
 
 const URI =
-  "mongodb+srv://matiasbritez88:matias1188@codercluster0.j6xuhmy.mongodb.net/ecommerce?retryWrites=true&w=majority";
+  "mongodb+srv://nahueldimuro:pumadk@clusterdimuro.ir5auko.mongodb.net/ecommerceCH?retryWrites=true&w=majority";
 app.use(
   session({
     secret: "SESSIONSECRETKEY",

@@ -1,4 +1,4 @@
-import { productManager } from "../Dao/MongoDB/product.js";
+import { productManager } from "../dao/db/product.js";
 
 async function getAllProducts(req, res) {
   try {
